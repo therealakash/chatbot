@@ -1,0 +1,80 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["akash here", "its akash ", "akash"],
+    "bot_response": "It's good to meet you Sir",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["how", "apps"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "I"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["fever", "cough", "sorethroat", "bodyache","flu"],
+    "bot_response": "Pervent Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. It affects the nose, throat, and sometimes the lungs.",
+    "required_words": ["fever", "cough"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["sneezing", "cold"],
+    "bot_response": "Pervent Common Cold: Preventing the common cold involves adopting good hygiene practices and taking precautions to reduce the risk of transmission. While it may not guarantee complete prevention, these measures can help minimize the chances of catching a cold",
+    "required_words": ["cold", "sneezing"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["wheezing", "shortnessofbreath", "breath", "chesttightness", "tightness", "chest","asthma"],
+    "bot_response": "Pervent Asthma: While asthma cannot be completely prevented, there are several measures you can take to reduce the frequency and severity of asthma symptoms.",
+    "required_words": ["chest", "breath"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["diabetes", "fatigue", "urination", "thirst"],
+    "bot_response": "Pervent diabetes :Be more physically active. There are many benefits to regular physical activity Eat healthy plant foods. Plants provide vitamins, minerals and carbohydrates in your diet.",
+    "required_words": ["thirst", "urination"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["depression", "fatigue", "sadness", " disinterest"],
+    "bot_response": "Pervent depression:Maintaining a healthy sleep routine Managing stress with healthy coping mechanisms Practicing regular self-care activities such as exercise, meditation and yoga. ",
+    "required_words": [" disinterest", "sadness"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["cancer", "hoarseness", "indigestion ", "unusual bleeding", " bladder habits"],
+    "bot_response": "Pervent Cancer :You can reduce your risk of getting cancer by making healthy choices like keeping a healthy weight, avoiding tobacco, limiting the amount of alcohol you drink, and protecting your skin.",
+    "required_words": ["unusual bleeding", "cancer"]
+  }
+]
